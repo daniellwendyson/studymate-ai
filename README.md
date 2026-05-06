@@ -1,5 +1,5 @@
 
-```markdown
+
 # 🎓 MentorAI — Plataforma de Tutoria Inteligente
 
 MentorAI é uma plataforma de tutoria educacional com IA que responde dúvidas de alunos com base em materiais didáticos enviados em PDF. Utiliza agentes especializados com CrewAI para explicar, avaliar e motivar o aprendizado.
