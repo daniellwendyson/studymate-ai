@@ -1,0 +1,14 @@
+streamlit
+openai
+python-dotenv
+
+langchain
+langchain-core
+langchain-community
+langchain-openai
+
+crewai
+
+faiss-cpu
+pypdf
+tiktoken
