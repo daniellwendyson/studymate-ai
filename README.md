@@ -10,8 +10,7 @@
 ---
 
 ## 📸 Demonstração
-*(Coloque aqui uma imagem ou GIF da sua aplicação funcionando. Exemplo:)*
-![MentorAI Screenshot](https://via.placeholder.com/800x400.png?text=Insira+um+print+da+sua+tela+aqui)
+![MentorAI Screenshot](demo.png)
 
 ---
 
