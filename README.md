@@ -77,19 +77,10 @@ studymate-ai/
 
 Veja o arquivo `.env.example` para as variáveis necessárias.
 
-## 📝 Licença
-
-MIT
-```
-
----
-
 ### `.env.example`
 
 ```bash
 # Chave da API da OpenAI
 # Obtenha em: https://platform.openai.com/api-keys
 OPENAI_API_KEY=sua_chave_aqui
-```
-
----
+``` 
