@@ -1,17 +1,9 @@
 import os
 from crewai import Agent
-from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 
+# Carrega as variáveis de ambiente, garantindo que o OPENAI_API_KEY esteja disponível
 load_dotenv()
-
-
-llm = ChatOpenAI(
-    model="gpt-4o-mini",
-    temperature=0.3,
-    api_key=os.getenv("OPENAI_API_KEY")
-)
-
 
 def get_agents():
 
@@ -27,7 +19,7 @@ e acessível para estudantes.
 Nunca julgue o aluno.
 Sempre incentive o aprendizado.
 """,
-        llm=llm,
+        llm="gpt-4o-mini",
         verbose=False
     )
 
@@ -41,7 +33,7 @@ Você monitora o progresso educacional.
 Analisa a explicação do tutor e gera relatórios pedagógicos
 que ajudam a identificar pontos de aprendizado.
 """,
-        llm=llm,
+        llm="gpt-4o-mini",
         verbose=False
     )
 
@@ -57,7 +49,7 @@ incentivo e sugestões práticas de estudo.
 
 Nunca critique ou julgue o aluno.
 """,
-        llm=llm,
+        llm="gpt-4o-mini",
         verbose=False
     )
 
